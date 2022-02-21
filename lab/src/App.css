@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.first-section {
+  background-color: #282c34;
+  padding: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-el2 {
+  width: auto;
+  height: 20px;
+}
+
+.say-hello-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 70px;
+  gap: 10px;
+}
+
+.say-hello { 
+  color: white;
+  font-size: 70px;
+  width: fit-content;
+  margin: 0;
+}
+
+.youll-learn-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.learn-line {
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.button {
+  background-color: white;
+  width: 100px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 60px;
+  color: #282c34;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-info {
+  color: grey;
+}
